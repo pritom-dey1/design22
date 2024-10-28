@@ -1,0 +1,203 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: futura;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.left{
+    width: 30%;
+    height: 100%;
+ 
+  padding-top: 8%;
+   margin-left: 10%;
+}
+.left h1{
+    font-size: 5vw;
+    font-weight: 400;
+    line-height: 105px;
+}
+.right{
+    width: 25%;
+    height: 76%;
+    margin-top: 9.3%;
+    margin-right: 15%;
+
+    position: relative;
+}
+.bottom1st{
+
+    width: fit-content;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    display: flex;
+    border: 1.5px black solid;
+    border-radius: 20px;
+    padding: 2px;
+    padding: 0 3px;
+    margin-top: 35%;
+
+}
+.bottom1st h5{
+    font-size: 1.2vw;
+}
+.gola1{
+    width: 20px;
+    height: 20px;
+background-color: rgb(41, 30, 30);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.gola2{
+    width: 20px;
+    height: 20px;
+background-color: rgb(138, 115, 115);
+    border-radius: 50%;
+}
+.gola{
+    display: flex;
+  
+    justify-content: space-between;
+    width: 50px;
+}
+
+.bottomlast h5{
+
+margin-top: 2%;
+line-height: 190%;
+font-family: sans-serif;
+font-size: 1.1;
+
+}
+.ba{
+   
+    margin-top: 25px;
+    font-size: 1.5vw;
+}
+.pro{
+    display: flex;
+   
+    justify-content: space-between;
+  
+    padding: 8px;
+}
+.right img{
+    width: 100%;
+    height: 94%;
+    object-fit: cover;
+}
+.gla{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(15, 16, 20);
+    border-radius: 50%;
+  
+    position: absolute;
+    top: 15%;
+    right: -23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
+.right h3{
+    position: absolute;
+    top: 50%;
+    left: -39%;
+    rotate: -90deg;
+    font-size: 2vw;
+    font-family: sans-serif;
+}
+@media (max-width:600px){
+    .main{
+        width: 100%;
+        height: 100%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .left{
+        width: 89%;
+        height: 100%;
+     
+    
+    }
+    .left h1{
+        font-size: 9vw;
+      
+
+        margin: 0%;
+        padding: 0%;
+ 
+    }
+    .bottom1st{
+
+        width: fit-content;
+        width: 30%;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        display: flex;
+        border: 1.5px black solid;
+        border-radius: 20px;
+        padding: 2px;
+        padding: 0 3px;
+        margin-top: 15%;
+    
+    }
+    .bottom1st h5{
+        font-size: 3vw;
+    }
+    .gola1{
+        width: 20px;
+        height: 20px;
+    background-color: rgb(41, 30, 30);
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .gola2{
+        width: 20px;
+        height: 20px;
+    background-color: rgb(138, 115, 115);
+        border-radius: 50%;
+    }
+    .ba{
+        font-size: 5vw;
+    }
+    .right{
+        width: 70%;
+        height: 76%;
+       
+        margin-right: 15%;
+    
+        position: relative;
+    }
+    .bottomlast h5{
+
+        margin-top: 2%;
+        line-height: 190%;
+        font-family: sans-serif;
+        font-size: 1.1;
+    
+        width: 80%;
+        
+        }
+}
